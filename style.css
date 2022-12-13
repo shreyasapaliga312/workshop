@@ -1,0 +1,26 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+table
+{
+border-collapse:collapse;
+width:25%;
+}
+th, td
+{
+text-align:left;
+padding:8px;
+}
+th
+{
+background-color:blue;
+color:white;
+}
+tr:nth-child(even){
+background-color:greenyellow;
+}
+tr:nth-child(odd){
+background-color:pink;
+}
